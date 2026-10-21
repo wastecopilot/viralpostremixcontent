@@ -1,0 +1,14 @@
+node_modules
+.next
+out
+build
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+.env*.local
+.env
+!.env.example
+
+# Local-only: editor/preview settings and the design reference screenshots
+.claude/
+reference images/
