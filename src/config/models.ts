@@ -4,10 +4,13 @@
 // ─────────────────────────────────────────────────────────────
 
 export const models = {
-  /** Reads text, writes text and reads screenshots (vision). */
-  text: "gemini-3.8-flash",
+  /**
+   * Reads text, writes text and reads screenshots (vision).
+   * (The newer "gemini-3.8-flash" was often overloaded when this app was built — you can try it again later.)
+   */
+  text: "gemini-3.6-flash",
   /** Backup used automatically when the main text model is busy. */
-  textBackup: "gemini-3.6-flash",
+  textBackup: "gemini-3.5-flash-lite",
   /** Creates images. */
   image: "gemini-nano-banana-2.1",
   /** Backup used automatically when the main image model is busy. */
